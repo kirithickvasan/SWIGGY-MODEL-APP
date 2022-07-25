@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/swiggy"
+            android:layout_margin="10dp">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="237dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/button">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_baseline_search_24">
+            </ImageView>
+
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:hint="Search for Restaurants"
+                android:textColorHint="@color/black"
+                android:fontFamily="@font/amaranth"
+                android:textSize="15dp">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="end"
+                app:lottie_rawRes="@raw/offer"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true">
+            </com.airbnb.lottie.LottieAnimationView>
+        </LinearLayout>
+    </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="410dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/shape">
+
+            <com.airbnb.lottie.LottieAnimationView
+
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                app:lottie_rawRes="@raw/location"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true">
+            </com.airbnb.lottie.LottieAnimationView>
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/amaranth"
+                android:text="Unlimited free delivery, extra   \ndiscounts !!! Buy @75/months !!!"
+                android:textColor="#DC143C"
+                android:textSize="16dp">
+            </TextView>
+
+            </LinearLayout>
+             <HorizontalScrollView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="5dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="312dp"
+                   android:layout_height="150dp"
+                   android:layout_marginLeft="40dp"
+                   android:src="@drawable/online">
+               </ImageView>
+
+               <ImageView
+                  android:layout_width="300dp"
+                  android:layout_height="150dp"
+                  android:layout_marginLeft="40dp"
+                  android:src="@drawable/app">
+               </ImageView>
+
+               <ImageView
+                   android:layout_width="300dp"
+                   android:layout_height="150dp"
+                   android:layout_marginLeft="40dp"
+                   android:src="@drawable/everything">
+               </ImageView>
+           </LinearLayout>
+           </HorizontalScrollView>
+
+           <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_height="50dp">
+
+                   <com.airbnb.lottie.LottieAnimationView
+
+                       android:layout_width="60dp"
+                       android:layout_height="60dp"
+                       android:layout_margin="4dp"
+                       app:lottie_rawRes="@raw/thumbsup"
+                       app:lottie_autoPlay="true"
+                       app:lottie_loop="true">
+                   </com.airbnb.lottie.LottieAnimationView>
+
+                 <TextView
+                      android:layout_width="200dp"
+                      android:layout_height="25dp"
+                      android:layout_margin="10dp"
+                      android:fontFamily="@font/amaranth"
+                      android:text="Top Pickup For You"
+                      android:textColor="@color/black"
+                      android:textSize="20dp">
+                 </TextView>
+               </LinearLayout>
+               <HorizontalScrollView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:orientation="horizontal">
+
+                      <LinearLayout
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_margin="10dp"
+                          android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/friedrice">
+                        </ImageView>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:text="Blue-Moon\n Hotel"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/koli">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:text="Dine N \n Drive"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+            </LinearLayout> <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/traditional">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:fontFamily="@font/amaranth"
+                android:gravity="center"
+                android:text="Saravana Bavan"
+                android:textColor="@color/black"
+                android:textSize="15dp">
+
+            </TextView>
+           </LinearLayout>
+              <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/chicken">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:fontFamily="@font/amaranth"
+                android:gravity="center"
+                android:text="Burger \nKing"
+                android:textColor="@color/black"
+                android:textSize="15dp">
+            </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/meals">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:text="The Spice"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/icecream">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:text="Pitto \n Pinno"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+                </TextView>
+
+            </LinearLayout>
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="10dp"
+                       android:orientation="vertical">
+
+                       <ImageView
+                           android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:src="@drawable/tea">
+
+                       </ImageView>
+
+                       <TextView
+                           android:layout_width="80dp"
+                           android:layout_height="35dp"
+                           android:fontFamily="@font/amaranth"
+                           android:gravity="center"
+                           android:text="Kottu"
+                           android:textColor="@color/black"
+                           android:textSize="15dp">
+                       </TextView>
+
+                   </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/chocolate">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:text="Cherry On \n Top"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+                </TextView>
+
+            </LinearLayout>
+            </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <com.airbnb.lottie.LottieAnimationView
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    app:lottie_rawRes="@raw/delivery"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true">
+                </com.airbnb.lottie.LottieAnimationView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="25dp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/amaranth"
+                    android:text="Popular Brands"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/burgerking">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="35dp"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center"
+                        android:text="Burger\n king"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/bluemoon">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Blue-Moon\n Hotel"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/hsb">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Saravana\n bavan"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/dine">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Dine N\n Drive"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/kootu">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Kootu"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/masala">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Masala Dabar"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/spicetouch">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Spice Touch"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/cherry">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Cherry On \n Top"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+            </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_height="50dp">
+
+                   <com.airbnb.lottie.LottieAnimationView
+
+                       android:layout_width="60dp"
+                       android:layout_height="50dp"
+                       android:layout_margin="4dp"
+                       app:lottie_rawRes="@raw/discount"
+                       app:lottie_autoPlay="true"
+                       app:lottie_loop="true">
+                   </com.airbnb.lottie.LottieAnimationView>
+
+                 <TextView
+                      android:layout_width="200dp"
+                      android:layout_height="25dp"
+                      android:layout_margin="10dp"
+                      android:fontFamily="@font/amaranth"
+                      android:text="Special Offers"
+                      android:textColor="@color/black"
+                      android:textSize="20dp">
+                 </TextView>
+               </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/food">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="35dp"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center"
+                        android:text="Delicious \n Food"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/pizza">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="New FoodCourt"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/sandwhich">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Chalk Board Plaza"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/foodcourt">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Chicken Burger dine"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/rolls">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Pizza Rolls"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/twintown">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Twin Towns"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/comboking">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Combo King"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/specialcombo">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:fontFamily="@font/amaranth"
+                            android:gravity="center"
+                            android:text="Spice Walls"
+                            android:textColor="@color/black"
+                            android:textSize="15dp">
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <com.airbnb.lottie.LottieAnimationView
+
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="4dp"
+                    app:lottie_rawRes="@raw/forked"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true">
+                </com.airbnb.lottie.LottieAnimationView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="25dp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/amaranth"
+                    android:text="All Nearby Restaurants"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/item">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/newrestaurant"
+                        android:layout_margin="15dp">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/item1"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_toRightOf="@id/item1"
+                        android:text="    New restaurant            ->16mins \n    South Indian \n    Dharmapuri,BusStand  "
+                        android:textSize="17dp"
+                        android:textColor="@color/black"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/amaranth">
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/item">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/meatneat"
+                        android:layout_margin="15dp">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/item2"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_toRightOf="@id/item2"
+                        android:text="    Meat N Eat                ->24mins \n    Briyani,Chinese \n    Dharmapuri,BusStand  "
+                        android:textSize="17dp"
+                        android:textColor="@color/black"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/amaranth">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/item">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/homekitchen"
+                        android:layout_margin="15dp">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/item3"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_toRightOf="@id/item3"
+                        android:text="    Home Kitchen              ->23mins \n    South Indian,Chinese \n    GH Backside,Dharmapuri "
+                        android:textSize="17dp"
+                        android:textColor="@color/black"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/amaranth">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/item">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/flames"
+                        android:layout_margin="15dp">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/item4"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_toRightOf="@id/item4"
+                        android:text="    Flames                        ->27mins \n    Kerala,Indian,Chinese \n    Pidamaneri,Dharmapuri "
+                        android:textSize="17dp"
+                        android:textColor="@color/black"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/amaranth">
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/button"
+                    android:layout_marginLeft="140dp"
+                    android:text="See All"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/amaranth"
+                    android:textColor="@color/black">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="312dp"
+                   android:layout_height="150dp"
+                   android:layout_marginLeft="40dp"
+                   android:src="@drawable/blog"
+                   android:layout_marginBottom="40dp">
+               </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+        </ScrollView>
+          </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_baseline_home_24">
+            </ImageView>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:fontFamily="@font/amaranth"
+                android:text="     Home"
+                android:textColor="@color/black"
+                android:textSize="15dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/ic_baseline_person_24">
+            </ImageView>
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="20dp"
+                android:fontFamily="@font/amaranth"
+                android:text="              Account"
+                android:textColor="@color/black"
+                android:textSize="15dp">
+
+            </TextView>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_shopping_cart_24"
+                android:layout_marginLeft="60dp"   >
+            </ImageView>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:fontFamily="@font/amaranth"
+                android:text="                Cart"
+                android:textColor="@color/black"
+                android:textSize="15dp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/ic_baseline_history_24">
+        </ImageView>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:fontFamily="@font/amaranth"
+                android:text="             History"
+                android:textColor="@color/black"
+                android:textSize="15dp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
